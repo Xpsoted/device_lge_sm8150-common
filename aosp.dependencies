@@ -1,0 +1,10 @@
+[
+  {
+    "repository": "kernel_lge_sm8150",
+    "target_path": "kernel/lge/sm8150",
+  },
+  {
+    "repository": "vendor_lge",
+    "target_path": "vendor/lge",
+  },
+]

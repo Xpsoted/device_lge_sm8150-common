@@ -1,4 +1,4 @@
-#
+# Copyright 2023 The PixelExperienceProject
 # Copyright 2016 The CyanogenMod Project
 # Copyright 2017 The LineageOS Project
 #
