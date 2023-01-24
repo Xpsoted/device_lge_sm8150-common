@@ -440,7 +440,10 @@ PRODUCT_PACKAGES += \
 
 # Vibrator
 PRODUCT_PACKAGES += \
-    android.hardware.vibrator@1.3-service.lge
+      vendor.qti.hardware.vibrator.service
+
+PRODUCT_COPY_FILES += \
+      vendor/qcom/opensource/vibrator/excluded-input-devices.xml:$(TARGET_COPY_OUT_VENDOR)/etc/excluded-input-devices.xml
 
 # Seccomp policy
 PRODUCT_COPY_FILES += \
